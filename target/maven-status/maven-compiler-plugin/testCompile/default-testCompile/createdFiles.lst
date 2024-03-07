@@ -1,0 +1,17 @@
+tests/Signup/SignInToGoogle.class
+utils/listeners/TestListener.class
+BaseClases/PageBase.class
+utils/extentReports/ExtentTestManager.class
+utils/logs/Log.class
+tests/Signup/Signup.class
+PageObject/SignupPage.class
+PageObject/GoogleSignInPage.class
+BaseClases/TestBase.class
+Utilities/ReadConfig.class
+tests/Login/LoginToDashboard.class
+PageObject/LoginPage.class
+tests/Login/Login.class
+utils/logs/JSErrorLogs.class
+utils/listeners/Retry.class
+utils/extentReports/ExtentManager.class
+utils/listeners/AnnotationTransformer.class

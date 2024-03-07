@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T18:28:57 WAT" name="FE APP" finished-at="2024-03-07T18:29:14 WAT" duration-ms="16541">
+    <groups>
+    </groups>
+    <test started-at="2024-03-07T18:28:57 WAT" name="Regression Suite" finished-at="2024-03-07T18:29:14 WAT" duration-ms="16541">
+      <class name="tests.Login.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login.Login@17046283]" started-at="2024-03-07T18:28:57 WAT" name="setup" finished-at="2024-03-07T18:29:06 WAT" duration-ms="8847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateUsersCanOpenFrontEdgeApplication(java.lang.reflect.Method)[pri:1, instance:tests.Login.Login@17046283]" started-at="2024-03-07T18:29:06 WAT" name="ValidateUsersCanOpenFrontEdgeApplication" description="Validate that user shall be able to open the FrontEdge  application with the correct URL" finished-at="2024-03-07T18:29:07 WAT" duration-ms="585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Login.Login.ValidateUsersCanOpenFrontEdgeApplication(java.lang.reflect.Method) throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUsersCanOpenFrontEdgeApplication -->
+        <test-method signature="ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(java.lang.reflect.Method)[pri:2, instance:tests.Login.Login@17046283]" started-at="2024-03-07T18:29:07 WAT" name="ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword" description="Validate that user is unable to login with correct username and incorrect password" finished-at="2024-03-07T18:29:08 WAT" duration-ms="1747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(java.lang.reflect.Method) throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword -->
+        <test-method signature="ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(java.lang.reflect.Method)[pri:3, instance:tests.Login.Login@17046283]" started-at="2024-03-07T18:29:08 WAT" name="ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword" description="Validate that the user is unable to log in with incorrect username and incorrect Password" finished-at="2024-03-07T18:29:10 WAT" duration-ms="1289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Login.Login.ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(java.lang.reflect.Method) throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword -->
+        <test-method signature="ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(java.lang.reflect.Method)[pri:4, instance:tests.Login.Login@17046283]" started-at="2024-03-07T18:29:10 WAT" name="ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword" description="Validate that the user is unable to log in with  correct email and incorrect Password" finished-at="2024-03-07T18:29:11 WAT" duration-ms="1456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(java.lang.reflect.Method) throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword -->
+        <test-method signature="ValidateUsersIsUnableToLoginWithEmptyFields(java.lang.reflect.Method)[pri:5, instance:tests.Login.Login@17046283]" started-at="2024-03-07T18:29:11 WAT" name="ValidateUsersIsUnableToLoginWithEmptyFields" description="Validate that the user is unable to log in with empty fields for both Username and password" finished-at="2024-03-07T18:29:12 WAT" duration-ms="1276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Login.Login.ValidateUsersIsUnableToLoginWithEmptyFields(java.lang.reflect.Method) throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUsersIsUnableToLoginWithEmptyFields -->
+        <test-method signature="ValidateSuccessfulLogin(java.lang.reflect.Method)[pri:6, instance:tests.Login.Login@17046283]" started-at="2024-03-07T18:29:12 WAT" name="ValidateSuccessfulLogin" description="Validate Successful login" finished-at="2024-03-07T18:29:13 WAT" duration-ms="808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Login.Login.ValidateSuccessfulLogin(java.lang.reflect.Method) throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login.Login@17046283]" started-at="2024-03-07T18:29:13 WAT" name="tearDown" finished-at="2024-03-07T18:29:14 WAT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Login.Login -->
+    </test> <!-- Regression Suite -->
+  </suite> <!-- FE APP -->
+</testng-results>

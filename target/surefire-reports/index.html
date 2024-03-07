@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FE_APP" class="navigator-link">
+              <span class="suite-name border-passed">FE APP</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FE_APP" class="navigator-link ">
+                    <span>Testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FE_APP" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FE_APP" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FE_APP" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FE_APP" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FE_APP" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FE_APP" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FE_APP" class="hide-methods passed suite-FE_APP"> (hide)</a> <!-- hide-methods passed suite-FE_APP -->
+                      <a href="#" panel-name="suite-FE_APP" class="show-methods passed suite-FE_APP"> (show)</a> <!-- show-methods passed suite-FE_APP -->
+                    </span>
+                    <div class="method-list-content passed suite-FE_APP">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FE_APP" title="tests.Login.Login" class="method navigator-link" hash-for-method="ValidateSuccessfulLogin(public void tests.Login.Login.ValidateSuccessfulLogin(java.lang.reflect.Method) throws java.io.FileN...)">ValidateSuccessfulLogin(public void tests.Login.Login.ValidateSuccessfulLogin(java.lang.reflect.Method) throws java.io.FileN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FE_APP" title="tests.Login.Login" class="method navigator-link" hash-for-method="ValidateUsersCanOpenFrontEdgeApplication(public void tests.Login.Login.ValidateUsersCanOpenFrontEdgeApplication(java.lang.reflect.Method) thr...)">ValidateUsersCanOpenFrontEdgeApplication(public void tests.Login.Login.ValidateUsersCanOpenFrontEdgeApplication(java.lang.reflect.Method) thr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FE_APP" title="tests.Login.Login" class="method navigator-link" hash-for-method="ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(java....)">ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(java....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FE_APP" title="tests.Login.Login" class="method navigator-link" hash-for-method="ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(ja...)">ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(ja...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FE_APP" title="tests.Login.Login" class="method navigator-link" hash-for-method="ValidateUsersIsUnableToLoginWithEmptyFields(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithEmptyFields(java.lang.reflect.Method) ...)">ValidateUsersIsUnableToLoginWithEmptyFields(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithEmptyFields(java.lang.reflect.Method) ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FE_APP" title="tests.Login.Login" class="method navigator-link" hash-for-method="ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(...)">ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FE_APP -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FE_APP" class="panel FE_APP">
+          <div class="suite-FE_APP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Login.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateSuccessfulLogin(public void tests.Login.Login.ValidateSuccessfulLogin(java.lang.reflect.Method) throws java.io.FileN...)">
+                  </a> <!-- ValidateSuccessfulLogin(public void tests.Login.Login.ValidateSuccessfulLogin(java.lang.reflect.Method) throws java.io.FileN...) -->
+                  <span class="method-name">ValidateSuccessfulLogin</span>
+                  <span class="parameters">(public void tests.Login.Login.ValidateSuccessfulLogin(java.lang.reflect.Method) throws java.io.FileNotFoundException)</span>
+                  <em>
+(Validate Successful login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateUsersCanOpenFrontEdgeApplication(public void tests.Login.Login.ValidateUsersCanOpenFrontEdgeApplication(java.lang.reflect.Method) thr...)">
+                  </a> <!-- ValidateUsersCanOpenFrontEdgeApplication(public void tests.Login.Login.ValidateUsersCanOpenFrontEdgeApplication(java.lang.reflect.Method) thr...) -->
+                  <span class="method-name">ValidateUsersCanOpenFrontEdgeApplication</span>
+                  <span class="parameters">(public void tests.Login.Login.ValidateUsersCanOpenFrontEdgeApplication(java.lang.reflect.Method) throws java.io.FileNotFoundException)</span>
+                  <em>
+(Validate that user shall be able to open the FrontEdge  application with the correct URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(java....)">
+                  </a> <!-- ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(java....) -->
+                  <span class="method-name">ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword</span>
+                  <span class="parameters">(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(java.lang.reflect.Method) throws java.io.FileNotFoundException)</span>
+                  <em>
+(Validate that the user is unable to log in with  correct email and incorrect Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(ja...)">
+                  </a> <!-- ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(ja...) -->
+                  <span class="method-name">ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword</span>
+                  <span class="parameters">(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(java.lang.reflect.Method) throws java.io.FileNotFoundException)</span>
+                  <em>
+(Validate that user is unable to login with correct username and incorrect password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateUsersIsUnableToLoginWithEmptyFields(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithEmptyFields(java.lang.reflect.Method) ...)">
+                  </a> <!-- ValidateUsersIsUnableToLoginWithEmptyFields(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithEmptyFields(java.lang.reflect.Method) ...) -->
+                  <span class="method-name">ValidateUsersIsUnableToLoginWithEmptyFields</span>
+                  <span class="parameters">(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithEmptyFields(java.lang.reflect.Method) throws java.io.FileNotFoundException)</span>
+                  <em>
+(Validate that the user is unable to log in with empty fields for both Username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(...)">
+                  </a> <!-- ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(...) -->
+                  <span class="method-name">ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword</span>
+                  <span class="parameters">(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(java.lang.reflect.Method) throws java.io.FileNotFoundException)</span>
+                  <em>
+(Validate that the user is unable to log in with incorrect username and incorrect Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FE_APP-class-passed -->
+        </div> <!-- panel FE_APP -->
+        <div panel-name="test-xml-FE_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/stellaagbadu/Desktop/FrontEdgeApp/Testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FE APP&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;utils.listeners.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Suite&quot; verbose=&quot;0&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;tests.Login&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Login.Login&quot;/&gt;
+      &lt;class name=&quot;tests.Login.LoginToDashboard&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Suite --&gt;
+&lt;/suite&gt; &lt;!-- FE APP --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FE_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FE APP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Suite (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FE_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FE APP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FE_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FE APP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FE_APP');
+function tableData_FE_APP() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword')
+data.setCell(0, 2, 'tests.Login.Login')
+data.setCell(0, 3, 1747);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword')
+data.setCell(1, 2, 'tests.Login.Login')
+data.setCell(1, 3, 1456);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword')
+data.setCell(2, 2, 'tests.Login.Login')
+data.setCell(2, 3, 1289);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ValidateUsersIsUnableToLoginWithEmptyFields')
+data.setCell(3, 2, 'tests.Login.Login')
+data.setCell(3, 3, 1276);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ValidateSuccessfulLogin')
+data.setCell(4, 2, 'tests.Login.Login')
+data.setCell(4, 3, 808);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateUsersCanOpenFrontEdgeApplication')
+data.setCell(5, 2, 'tests.Login.Login')
+data.setCell(5, 3, 585);
+window.suiteTableData['FE_APP']= { tableData: data, tableDiv: 'times-div-FE_APP'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-FE_APP">
+              </div> <!-- times-div-FE_APP -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FE_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FE APP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FE_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FE_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Login.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidateUsersCanOpenFrontEdgeApplication(public void tests.Login.Login.ValidateUsersCanOpenFrontEdgeApplication(java.lang.reflect.Method) thr...)</span>
+                <span class="method-start">8857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectUsernameAndIncorrectPassword(ja...)</span>
+                <span class="method-start">9445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithIncorrectUsernameAndIncorrectPassword(...)</span>
+                <span class="method-start">11193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithCorrectEmailAndIncorrectPassword(java....)</span>
+                <span class="method-start">12484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateUsersIsUnableToLoginWithEmptyFields(public void tests.Login.Login.ValidateUsersIsUnableToLoginWithEmptyFields(java.lang.reflect.Method) ...)</span>
+                <span class="method-start">13941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateSuccessfulLogin(public void tests.Login.Login.ValidateSuccessfulLogin(java.lang.reflect.Method) throws java.io.FileN...)</span>
+                <span class="method-start">15218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16031 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

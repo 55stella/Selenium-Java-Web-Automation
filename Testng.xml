@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FE APP">
+    <listeners>
+        <listener class-name="utils.listeners.TestListener"></listener>
+        <listener class-name="utils.listeners.AnnotationTransformer"></listener>
+
+    </listeners>
+    <test name="Regression Suite" parallel="false">
+        <packages>
+            <package name="tests.Login"></package>
+        </packages>
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name="com.testCases.TAS_Excellerate.Login"></class>&ndash;&gt;-->
+<!--        </classes>-->
+    </test>
+</suite>

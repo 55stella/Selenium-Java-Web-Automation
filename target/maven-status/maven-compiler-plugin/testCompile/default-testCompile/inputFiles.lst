@@ -1,0 +1,17 @@
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/utils/extentReports/ExtentManager.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/tests/Login/LoginToDashboard.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/BaseClases/TestBase.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/BaseClases/PageBase.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/PageObject/LoginPage.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/PageObject/GoogleSignInPage.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/utils/listeners/AnnotationTransformer.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/utils/logs/JSErrorLogs.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/utils/listeners/Retry.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/utils/listeners/TestListener.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/Utilities/ReadConfig.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/tests/Login/Login.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/tests/Signup/SignInToGoogle.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/tests/Signup/Signup.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/utils/extentReports/ExtentTestManager.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/utils/logs/Log.java
+/Users/stellaagbadu/Desktop/FrontEdgeApp/src/test/java/PageObject/SignupPage.java
